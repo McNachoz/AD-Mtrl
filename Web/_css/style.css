@@ -36,6 +36,14 @@ section {
   padding-bottom: 100px ;
 }
 
+/* topbar */
+.top-bar span {
+  font-size: 25px;
+  padding: 4px 10px;
+}
+
+
+
 /*  navbar */
 
 .nav-link {
@@ -46,7 +54,7 @@ section {
   border-bottom: 2px solid rgba(0, 0, 0, .1);
 }
 .navbar .nav-link {
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,6 +68,11 @@ section {
   color: #ff9d2d !important;
 }
 
+/* topbar hover color */
+i:hover {
+  color: #ff9d2d !important;
+
+}
 
 
 /* toggler-icon animation */
@@ -164,7 +177,7 @@ section {
 }
 
 
-
+/* 
 #home h1 {
   font-weight: 700;
 }
@@ -172,7 +185,7 @@ section {
 #home p {
   max-width: 600px;
   margin: auto;
-}
+} */
 
 .section-intro .hline {
   width: 150px;
