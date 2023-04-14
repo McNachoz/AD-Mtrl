@@ -6,6 +6,7 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
+  
 }
 
 body {
@@ -14,7 +15,10 @@ body {
   font-size: 15px;
   font-family: IBM;
   position: relative;
+
 }
+
+
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
@@ -252,7 +256,7 @@ a:hover {
 
 /* Team Area */
 
-.btn:focus {
+/* .btn:focus {
   outline: none !important;
   box-shadow: none !important ;
 }
@@ -299,10 +303,10 @@ a:hover {
 
 .img-area img {
   transition: all 0.4s ease 0s;
-}
+} */
 
 /* vertical arrangement of images */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .img-area img {
     display: inline-block;
   }
@@ -347,4 +351,54 @@ a:hover {
   padding: 25px;
   color: #fff;
   text-align: center;
+} */
+
+/* TEAM AREA */
+
+
+
+
+.filters {
+	margin: 0 0 30px 0;
 }
+.filters .nav-pills > li {
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+.filters .nav-pills > li + li {
+	margin-left: 0px;
+}
+.text-center.filters .nav-pills > li {
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	display: inline-block;
+	float: none;
+}
+
+
+
+/* Projects section */
+#projects {
+  line-height: 2;
+  color: #000;
+}
+
+
+
+.projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bg-color {
+  background-color: #f6f7f9;
+}
+
+.projects-box {
+  padding: 20px;
+  background-color: #fff;
+  transition: .4s;
+  transform: translateY(0);
+}
+
