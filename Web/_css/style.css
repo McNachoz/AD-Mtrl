@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  line-height: 4;
+  /* line-height: 4; */
   color: #898fa1;
   font-size: 15px;
   font-family: IBM;
@@ -78,6 +78,7 @@ header a {
 
 .navbar {
   border-bottom: 2px solid rgba(0, 0, 0, .1);
+  line-height: 4;
 }
 
 .navbar .nav-link {
@@ -379,8 +380,7 @@ a:hover {
 
 
 /* Projects section */
-#projects {
-  line-height: 2;
+#projects{ 
   color: #000;
 }
 
@@ -392,12 +392,12 @@ a:hover {
 }
 
 .bg-color {
-  background-color: #f6f7f9;
+  background-color:#f6f7f9;
 }
 
 .projects-box {
   padding: 20px;
-  background-color: #fff;
+  background-color: #d5d5d5;
   transition: .4s;
   transform: translateY(0);
 }
