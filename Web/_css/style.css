@@ -196,7 +196,7 @@ a:hover {
 .dropdown-menu {
   max-height: 200px;
   overflow-y: scroll;
-  scrollbar-color: #777 #555;
+  /* scrollbar-color: #777 #555; */
 }
 
 
@@ -255,127 +255,11 @@ a:hover {
 
 
 
-/* Team Area */
-
-/* .btn:focus {
-  outline: none !important;
-  box-shadow: none !important ;
-}
-
-.btn-primary {
-  background-color: #fff !important;
-  border-color: #000;
-}
-
-.btn-primary:hover {
-  background-color: #eb7d00 !important;
-}
 
 
 
 
-.team-area {
-  padding-top: 5%;
-}
 
-.single-team {
-  background-color: #000;
-  margin-bottom: 10px;
-}
-
-.single-team:hover .social {
-  cursor: pointer;
-  opacity: 1;
-  transform: rotateY(0deg) scale(1, 1);
-}
-
-.img-area {
-  overflow:hidden;
-  position: relative;
-}
-
-.img-area img {
-  width: 100%;
-}
-
-.img-area:hover img {
-  transform: scale(1.2);
-}
-
-.img-area img {
-  transition: all 0.4s ease 0s;
-} */
-
-/* vertical arrangement of images */
-/* @media (max-width: 768px) {
-  .img-area img {
-    display: inline-block;
-  }
-}
-
-.img-area .social {
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  transition: .5s;
-  transform: rotateY(180deg) scale(0.5, 0.5);
-}
-
-.img-area .social ul {
-  text-align: center;
-  position: relative;
-  top: 175px;
-}
-
-.img-area .social ul li a {
-  border: 1px solid #fff;
-  color: #fff;
-  display: block;
-  font-size: 20px;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
-  text-align: center;
-}
-
-.img-area .social ul li a:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid transparent;
-}
-.img-text {
-  padding: 25px;
-  color: #fff;
-  text-align: center;
-} */
-
-/* TEAM AREA */
-
-
-
-
-/* .filters {
-	margin: 0 0 30px 0;
-}
-.filters .nav-pills > li {
-	margin-right: 2px;
-	margin-bottom: 2px;
-}
-.filters .nav-pills > li + li {
-	margin-left: 0px;
-}
-.text-center.filters .nav-pills > li {
-	margin-right: 2px;
-	margin-left: 2px;
-	margin-bottom: 2px;
-	display: inline-block;
-	float: none;
-} */
 
 
 
@@ -420,11 +304,23 @@ a:hover {
 
 
 /* TEAM  */
+
+/* #team .title {
+  color: #fff;
+  font-size: 18px;
+} */
+
+
+#team .title:hover{
+  color: #ff9d2d;
+}
+
 ul.filters{
   display: block;
   width: 100%;
-  margin: 0;
+  /* margin: 0; */
   padding: 30px 0;
+  font-size: 18px;
   /* border: 1px solid rgb(36, 34, 34, 0.1);
   box-sizing: border-box; */
 }
@@ -453,10 +349,10 @@ ul.filters > li.active > a{
 .card{
   position: relative;
   margin-bottom: 50px;
-  color: #000;
+  color: #fff;
   border-radius: 0;
-  border: 5px solid #ae1616;
-  background-color: #fff;
+  border: 1px solid rgb(26, 23, 23);
+  background-color: #1d1d1d;
   box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
 }
 
@@ -475,7 +371,7 @@ ul.filters > li.active > a{
   width: 100%;
   height: 100%;
   z-index: 9;
-  background-color: rgba(67,78,94,0.8);
+  /* background-color: rgba(67,78,94,0.8); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -485,6 +381,12 @@ ul.filters > li.active > a{
   -ms-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
 }
+
+/* .card-body h5:hover{
+  color: #ae1616;
+} */
+
+
 
 .card-hover{
   position: absolute;
@@ -512,10 +414,19 @@ ul.filters > li.active > a{
   padding-bottom: 10px;
 }
 
+.card-body .title h4{
+ color: #ae1616;
+}
+
 h4.title{
-  color: #434e5e;
-  font-size: 1.2rem;
+  color: #ffffff;
+  font-size: 18px;
   margin-bottom: 0;
+}
+
+h5.title {
+  color: #ffffff;
+  font-size: 18px;
 }
 
 .card-btn{
