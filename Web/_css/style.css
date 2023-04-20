@@ -1,6 +1,28 @@
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&family=Roboto:wght@500&display=swap');
 
 
+  /* scroll bar customize */
+
+ ::-webkit-scrollbar {
+      width: 1em;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(120, 1%, 36%);
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 1%, 14%);
+  border-radius: 100vw;
+  border: .25 solid  hsl(120, 2%, 19%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(120, 2%, 8%);
+}
+
+
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -47,6 +69,32 @@ section {
   padding-top: 100px;
   padding-bottom: 100px ;
 }
+
+
+/* dropdown menu js  */
+
+@media screen and (min-width:993px) {
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu.show {
+    display: block;
+  }
+
+
+}
+
+
+@media screen and (max-width:992px) {
+  .dropdown-menu.show {
+   max-height: 60vh;
+   overflow-y: scroll;
+  }
+
+
+}
+
 
 
 .dropdown-menu .dropdown-item {
@@ -193,23 +241,42 @@ a:hover {
 
 
 /* dropdown-menu */
-.dropdown-menu {
+/* .dropdown-menu {
   max-height: 200px;
   overflow-y: scroll;
-  /* scrollbar-color: #777 #555; */
+} */
+
+ /* padding: 0;
+  width: auto !important;  */
+
+
+/* navbar scroll responsive */
+/* .navbar {
+  overflow: auto; 
+  display: flex;
+  flex-direction: column;
+}
+
+#navbarNav li a {
+    font-size: 16px;
+} */
+
+
+
+/* about us */
+
+.about-img img {
+  transition: transform .3s;
+}
+
+.about-img:hover img {
+  transform: scale(1.2);
+  transition: ease-in-out;
 }
 
 
-/* #home {
-  background-color: rgba(189, 195, 199, .4);
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-} */
 
+ 
 
 /* carousel image --> "c-item/c-img */
  .c-item {
@@ -223,17 +290,6 @@ a:hover {
   object-fit: cover;
   filter: brightness(0.9);
 }
-
-
-/* 
-#home h1 {
-  font-weight: 700;
-}
-
-#home {
-  max-width: 600px;
-  margin: auto;
-} */
 
 .section-intro .hline {
   width: 150px;
@@ -311,6 +367,13 @@ a:hover {
 } */
 
 
+.btn-custom {
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+
 #team .title:hover{
   color: #ff9d2d;
 }
@@ -329,6 +392,23 @@ ul.filters > li{
   list-style: none;
   display: inline-block;
 }
+
+/* @media screen and (min-width:1240px) {
+  .filters {
+    display: block;
+  }
+
+
+}
+
+
+@media screen and (min-width: 900px) {
+  .filters {
+    display: block;
+  }
+
+
+} */
 
 ul.filters > li > a{
   display: block;
@@ -443,4 +523,23 @@ h5.title {
 .card-btn:hover{
   background-color: #28bea8;
   color: #fff;
+}
+
+
+/* modal card */
+
+.modal-header h1{
+  font-size: 12px;
+}
+
+.modal-body {
+  line-height: 2;
+}
+
+.modal-footer .btn:hover{
+  color: #eb7d00 ;
+}
+
+.modal-body span {
+  font-size: 24px;
 }
