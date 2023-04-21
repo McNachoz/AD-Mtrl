@@ -361,16 +361,12 @@ a:hover {
 
 /* TEAM  */
 
-/* #team .title {
-  color: #fff;
-  font-size: 18px;
-} */
 
 
-.btn-custom {
+/* .btn-custom {
   font-size: 20px;
   padding: 10px;
-}
+} */
 
 
 
@@ -393,27 +389,13 @@ ul.filters > li{
   display: inline-block;
 }
 
-/* @media screen and (min-width:1240px) {
-  .filters {
-    display: block;
-  }
 
-
-}
-
-
-@media screen and (min-width: 900px) {
-  .filters {
-    display: block;
-  }
-
-
-} */
 
 ul.filters > li > a{
   display: block;
   color: #434e5e;
   text-decoration: none;
+  border-radius: 2px solid;
   padding: 5px 20px;
 }
 
@@ -423,17 +405,17 @@ ul.filters > li > a:hover{
 
 ul.filters > li.active > a{
   color: #fff;
-  background-color: #0f1010;
+  background-color: #1d1d1d;
 }
 
 .card{
   position: relative;
   margin-bottom: 50px;
   color: #fff;
-  border-radius: 0;
-  border: 1px solid rgb(26, 23, 23);
+  border-radius: 3;
+  /* border: 1px solid rgb(26, 23, 23); */
   background-color: #1d1d1d;
-  box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
+  /* box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075); */
 }
 
 /* customize */
@@ -451,6 +433,7 @@ ul.filters > li.active > a{
   width: 100%;
   height: 100%;
   z-index: 9;
+  opacity: 0;
   /* background-color: rgba(67,78,94,0.8); */
   display: flex;
   align-items: center;
@@ -500,16 +483,16 @@ ul.filters > li.active > a{
 
 h4.title{
   color: #ffffff;
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 0;
 }
 
 h5.title {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 8px;
 }
 
-.card-btn{
+/* .card-btn{
   margin-bottom: -40px;
   font-size: 0.9rem;
   background-color: #fff;
@@ -518,12 +501,14 @@ h5.title {
   border-radius: 0;
   padding-left: 50px;
   padding-right: 50px;
-}
+} */
 
-.card-btn:hover{
+/* .card-btn:hover{
   background-color: #28bea8;
   color: #fff;
-}
+} */
+
+
 
 
 /* modal card */
@@ -542,4 +527,48 @@ h5.title {
 
 .modal-body span {
   font-size: 24px;
+}
+
+
+/* modal overlay */
+.card-head:hover .image {
+  opacity: .2;
+
+}
+
+.card .btn {
+  padding: 0;
+  margin: 0;
+}
+
+.card-head:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-overlay {
+  transition: .3s ease;
+}
+
+.icons {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/* modal section */
+.modal-header {
+  /* color: #eb7d00; */
+  background-color: #1d1d1d;
+}
+
+.modal-header button {
+  color: #eb7d00;
+}
+
+.modal-header h1 {
+  color: #fff;
+}
+
+.modal-body span:hover {
+  color: #eb7d00;
 }
