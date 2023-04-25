@@ -70,10 +70,28 @@ section {
   padding-bottom: 100px ;
 }
 
+/* sections css */
 
-/* dropdown menu js  */
+.section-intro .hline {
+  width: 150px;
+  height: 3px;
+  background-color: #c78f4f;
+  margin: 16px auto 0 auto;
+}
 
-@media screen and (min-width:993px) {
+.section-intro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-intro span {
+  color: #eb7d00;
+}
+
+
+/* dropdown menu js when hovering "more" */
+
+@media screen and (min-width:992px) {
 
   .dropdown:hover .dropdown-menu {
     display: block;
@@ -86,14 +104,14 @@ section {
 }
 
 
-@media screen and (max-width:992px) {
-  .dropdown-menu.show {
+/* @media screen and (max-width:993px) {
+  .dropdown-menu {
    max-height: 60vh;
    overflow-y: scroll;
   }
 
 
-}
+} */
 
 
 
@@ -111,7 +129,7 @@ header a {
 
 .top-bar span {
   font-size: 25px;
-  padding: 1px 5px;
+  padding: 1px 8px;
 }
 
 
@@ -279,10 +297,13 @@ a:hover {
  
 
 /* carousel image --> "c-item/c-img */
- .c-item {
-  height: 600px;
-  background-color: rgba(27, 143, 221, 0.4);
 
+#carousel-Interval {
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+ .c-item {
+  height: 500px;
 }
 
  .c-img {
@@ -291,24 +312,18 @@ a:hover {
   filter: brightness(0.9);
 }
 
-.section-intro .hline {
-  width: 150px;
-  height: 3px;
-  background-color: #c78f4f;
-  margin: 16px auto 0 auto;
-}
 
-.section-intro {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.section-intro span {
+.carousel-inner h5{
+  font-size: 2.5rem;
   color: #eb7d00;
 }
 
-/* simu-mat */
 
+/* About simu-mat */
+
+.text p {
+  color: #000;
+}
 
 
 
@@ -354,20 +369,16 @@ a:hover {
   color: #eb7d00;
 }
 
+.projects-content {
+  height: 100%;
+}
+
 
 
 
 
 
 /* TEAM  */
-
-
-
-/* .btn-custom {
-  font-size: 20px;
-  padding: 10px;
-} */
-
 
 
 #team .title:hover{
@@ -379,14 +390,19 @@ ul.filters{
   width: 100%;
   /* margin: 0; */
   padding: 30px 0;
-  font-size: 18px;
+  font-size: 12px;
   /* border: 1px solid rgb(36, 34, 34, 0.1);
   box-sizing: border-box; */
+
 }
 
 ul.filters > li{
   list-style: none;
   display: inline-block;
+  border: 1px solid rgba(16, 15, 15, 0.4);
+  box-sizing: border-box;
+  margin: 3px;
+  position: relative;
 }
 
 
@@ -397,16 +413,27 @@ ul.filters > li > a{
   text-decoration: none;
   border-radius: 2px solid;
   padding: 5px 20px;
+  /* font-size: 13px; */
 }
 
 ul.filters > li > a:hover{
-  background-color: #e6e9ed;
+  background-color: #505050;
 }
 
 ul.filters > li.active > a{
   color: #fff;
   background-color: #1d1d1d;
 }
+
+
+/* media team mobile response to filter ul */
+
+@media (max-width: 800px) {
+  #team ul.filters li {
+    display: block;
+  }
+}
+
 
 .card{
   position: relative;
@@ -477,9 +504,9 @@ ul.filters > li.active > a{
   padding-bottom: 10px;
 }
 
-.card-body .title h4{
+/* .card-body .title h4{
  color: #ae1616;
-}
+} */
 
 h4.title{
   color: #ffffff;
@@ -489,24 +516,17 @@ h4.title{
 
 h5.title {
   color: #ffffff;
-  font-size: 8px;
+  font-size: 10px;
 }
 
-/* .card-btn{
-  margin-bottom: -40px;
-  font-size: 0.9rem;
-  background-color: #fff;
-  color: #222;
-  border: 1px solid #eee;
-  border-radius: 0;
-  padding-left: 50px;
-  padding-right: 50px;
-} */
 
-/* .card-btn:hover{
-  background-color: #28bea8;
-  color: #fff;
-} */
+
+/* @media screen and (max-width: 993px) {
+  .filters ul {
+    display: block;
+  }
+}
+   */
 
 
 
@@ -556,6 +576,9 @@ h5.title {
 
 
 /* modal section */
+
+
+
 .modal-header {
   /* color: #eb7d00; */
   background-color: #1d1d1d;
@@ -571,4 +594,52 @@ h5.title {
 
 .modal-body span:hover {
   color: #eb7d00;
+}
+
+
+
+
+/* funding partners section */
+
+
+
+
+.section-intro p {
+  font-size: 20px;
+  color: #0e0d0d;
+}
+
+
+
+
+/* contact US section */
+
+#contact-us {
+  padding-top: 100px;
+  
+}
+
+.contact-info a{
+  text-decoration: none !important;
+  color: #d4d4d4;
+
+}
+
+.contact-info h3{
+  font-size: 20px;
+  color: #d4d4d4;
+}
+
+
+
+/* firefox */
+@-moz-document url-prefix() {
+	.object-visible,
+	.touch .no-view {
+		-webkit-transition: opacity 0.6s ease-in-out;
+		-moz-transition: opacity 0.6s ease-in-out;
+		-o-transition: opacity 0.6s ease-in-out;
+		-ms-transition: opacity 0.6s ease-in-out;
+		transition: opacity 0.6s ease-in-out;
+	}
 }
