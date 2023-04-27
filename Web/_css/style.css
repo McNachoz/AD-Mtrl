@@ -1,4 +1,3 @@
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&family=Roboto:wght@500&display=swap');
 
 
   /* scroll bar customize */
@@ -27,14 +26,14 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
-  
 }
 
 body {
   line-height: 4;
   color: #898fa1;
   font-size: 15px;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
+  /* font-weight: 200; */
   position: relative;
 
 }
@@ -68,6 +67,41 @@ small {
 section {
   padding-top: 100px;
   padding-bottom: 100px ;
+}
+
+.scroll-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 15px;
+  bottom: -15px;
+  visibility: hidden;
+  opacity: 0;
+  width: 44px;
+  height: 44px;
+  background: #009bd9;
+  border-radius: 4px;
+  transition: .3s;
+  z-index: 11
+}
+
+.scroll-top:hover {
+  background: #03b7ff;
+  box-shadow: 0 6px 15px 0 rgba(0,155,217,.3)
+}
+
+.scroll-top .icon {
+  color: #fff;
+  width: 20px;
+  height: 20px
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  transition: .3s;
+  bottom: 15px
 }
 
 /* sections css */
@@ -170,16 +204,6 @@ a:hover {
 }
 
 
-/* toggler-icon animation */
-/* .navbar-toggler
-.toggler-icon .top-bar:hover
-.toggler-icon .middle-bar:hover
-.toggler-icon .bottom-bar:hover {
-  color: #ff9d2d !important;
-} */
-
-
-
 .navbar-toggler {
   width: 30px;
   height: 20px;
@@ -258,42 +282,43 @@ a:hover {
 }
 
 
-/* dropdown-menu */
-/* .dropdown-menu {
-  max-height: 200px;
-  overflow-y: scroll;
-} */
 
- /* padding: 0;
-  width: auto !important;  */
-
-
-/* navbar scroll responsive */
-/* .navbar {
-  overflow: auto; 
-  display: flex;
-  flex-direction: column;
-}
-
-#navbarNav li a {
-    font-size: 16px;
-} */
-
-
-
-/* about us */
-
-.about-img img {
-  transition: transform .3s;
-}
-
-.about-img:hover img {
-  transform: scale(1.2);
-  transition: ease-in-out;
+/*  AD-mtrl about us */
+#about {
+  line-height: 3;
+  color: #0e0d0d;
 }
 
 
+.hovereffect {
+  width:100%;
+  height:100%;
+  float:left;
+  overflow:hidden;
+  position:relative;
+  text-align:center;
+  cursor:default;
+  }
+  
+  
+  .hovereffect img {
+  display:block;
+  position:relative;
+  -webkit-transition:all .3s;
+  transition:all .3s;
+  }
+  
+  
+  .hovereffect:hover img {
+  -ms-transform:scale(1.2);
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+  }
+  
 
+
+
+ 
  
 
 /* carousel image --> "c-item/c-img */
@@ -472,12 +497,6 @@ ul.filters > li.active > a{
   transition: ease-in-out 0.2s;
 }
 
-/* .card-body h5:hover{
-  color: #ae1616;
-} */
-
-
-
 .card-hover{
   position: absolute;
   top: 100%;
@@ -504,9 +523,6 @@ ul.filters > li.active > a{
   padding-bottom: 10px;
 }
 
-/* .card-body .title h4{
- color: #ae1616;
-} */
 
 h4.title{
   color: #ffffff;
@@ -518,17 +534,6 @@ h5.title {
   color: #ffffff;
   font-size: 10px;
 }
-
-
-
-/* @media screen and (max-width: 993px) {
-  .filters ul {
-    display: block;
-  }
-}
-   */
-
-
 
 
 /* modal card */
