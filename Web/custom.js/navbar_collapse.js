@@ -26,6 +26,21 @@ $(function() {
     });
   });
 
+// back to top button
+//   jquery(document).ready(function)
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 90) {
+        $('.back-to-top').fadeIn('slow');
+    } else {
+        $('.back-to-top').fadeOut('slow');
+    }
+});
+$('.back-to-top').click(function () {
+    $('html, body').animate({scrollTop: 0}, 0, 'easeInOutExpo');
+    return false;
+});
+
 
 
 
