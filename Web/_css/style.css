@@ -28,6 +28,8 @@
   }
 }
 
+
+
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -44,13 +46,7 @@ body {
   color: #898fa1;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
-  /* font-weight: 200; */
   position: relative;
-  /* height: 90px; */
-  /* height: 100vh; */
-  /* height:-webkit-fill-available; */
-
-
 }
 
 
@@ -210,8 +206,14 @@ section {
   color: azure !important;
   /* font-family: "Inter", "Sans Serif";
   font-weight: 200; */
+  /* padding-right: 15px;
+  padding-left: 15px;
+  position: relative; */
 }
 
+/* .navbar.nav-item a {
+  padding-right: 15px;
+} */
 
 
 /* #home .top-bar {
@@ -224,6 +226,10 @@ section {
   height: 100px;
 }
 
+ul.navbar-nav {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 
 nav.navbar {
@@ -291,6 +297,7 @@ a:hover {
   transition: .25s ease-in-out;
 }
 
+
 .middle-bar {
   margin-top: 0px;
 }
@@ -304,9 +311,12 @@ a:hover {
 
 }
 
-@media (max-width:768px) {
-
-}
+/* @media (max-width:300px) {
+    .navbar-toggler button {
+      position: absolute;
+      left: 2rem;
+    }
+} */
 
 /* when navigation is clicked "X" */
 
@@ -430,6 +440,21 @@ a:hover {
   color: #eb7d00;
 }
 
+ .text-color h5 {
+  background: -webkit-linear-gradient(#7d7777, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-content .card-body {
+
+  background-color: rgb(255, 255, 255);
+  -moz-box-shadow: 0 0 5px 5px #666;
+  -webkit-box-shadow: 0 0 5px 5px #666;
+  box-shadow: 0 0 5px 5px #7d7c7c;
+  /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  font-weight: 300;
+}
 
 /* About simu-mat */
 
@@ -475,10 +500,10 @@ a:hover {
 
 
 
-.projects {
+/* .projects {
   padding-top: 50px;
   padding-bottom: 50px;
-}
+} */
 
 
 
@@ -518,6 +543,12 @@ a:hover {
   color: #ff9d2d;
 }
 
+
+
+ul.filters li {
+  color: #000;
+}
+
 ul.filters{
   display: block;
   width: 100%;
@@ -546,7 +577,6 @@ ul.filters > li > a{
   text-decoration: none;
   border-radius: 2px solid;
   padding: 5px 20px;
-  /* font-size: 13px; */
 }
 
 ul.filters > li > a:hover{
@@ -566,6 +596,16 @@ ul.filters > li.active > a{
     display: block;
   }
 }
+/* @media (min-width: 767px) {
+  #team .card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+} */
+
+
+
 
 
 .card{
@@ -699,6 +739,11 @@ h5.title {
 /* modal section */
 
 
+/* .modal-body img {
+    max-width: 808%;
+    align-items: center;
+    margin: auto;
+} */
 
 .modal-header {
   /* color: #eb7d00; */
@@ -713,29 +758,28 @@ h5.title {
   color: #fff;
 }
 
-/* .modal-body span:hover {
-  color: #eb7d00;
-} */
 
 .modal-body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* .fa-color {
-  color: #306add;
 
-} */
-
-/* .fa-color:hover {
-  color: #eb7d00;
-
-} */
-
+@media (min-width: 1280px) {
+  .modal-dialog {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    height: 250px;
+  }
+}
 /* .modal-dialog {
   position: relative;
-  width: 500px;
+  width: 400px;
   margin: auto;
+  height: 250px;
 } */
+
+
 
 .modal-dialog img {
   max-width: 100%;
@@ -746,8 +790,51 @@ h5.title {
 @media (max-width: 480px) {
   .modal-dialog {
     margin: 30px;
+    margin-bottom: 10px;
   }
 }
+
+
+
+@media (max-width:350px){
+  #team .card {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  #team .card {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* facilities */
+
+#facilities {
+    color: #000;
+  /* line-height: 2; */
+  font-family: 'IBM', sans-serif;
+    /* font-weight: 300; */
+  font-size: 18px;
+}
+
+.card-box {
+  padding: 20px;
+  background-color: #f2f2f2f8;
+  transition: .4s;
+  transform: translateY(0);
+  cursor: pointer;
+}
+.card-box:hover {
+    box-shadow: 0 0 30px #d4d4d4;
+  transform: translateY(-.5rem);
+}
+
+
+
+
+
 
 /* funding partners section */
 

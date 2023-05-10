@@ -1,29 +1,42 @@
-<div class="main-nav slideout-menu slideout-menu-left" id="menu">
-  <div class="flex-container">
-    <span class="sidebar-brand">
-      <h3 style='font-size: 25px'>Vela Template</h3>
-    </span>
-  </div> <!-- class="flex-container" -->
+<!-- navbar with dropdown -->
+<header id ="header" class="sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
 
-  <nav class="sidebar-nav">
-    <ul class="metismenu"  id="metismenu" >
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/menu1/">Code blocks</a></li>
-      <li><a href="" class="has-arrow">Topic</a>
-        <ul>
-          <li><a href="/menu2/">More goodies</a></li>
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="" >LOGO</a>
+      <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navbar-nav-scroll ms-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger smooth-scroll" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger smooth-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger smooth-scroll" href="#simu-mat">Simu-mat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger smooth-scroll" href="#projects">Projects</a>
+          </li>
+
+   <!-- dropdown menu "More" -->
+
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <a class="dropdown-item js-scroll-trigger" href="#team">Team</a>
+              <a class="dropdown-item js-scroll-trigger" href="#facilities">Facilities</a>
+              <a class="dropdown-item js-scroll-trigger" href="#funding-partners">Funding Partners</a>
+              <a class="dropdown-item js-scroll-trigger" href="#contact-us">Contact Us</a>
+            </div>
+          </li>
         </ul>
-      </li>
-      <li><a href="/menu3/">Tags</a></li>
-    </ul>
-  </nav>
-</div> <!-- main nav menu -->
-
-<main id="panel" class="slidout-panel slideout-panel-left">
-  <div class="toggle-button hamburger hamburger--spin">
-    <div class="hamburger-box">
-      <div class="hamburger-inner"></div>
+      </div>
     </div>
-  </div>
-  <h1 class="page title">{{isdef title}}{{fill title}}{{end}}</h1>
-  <hr>
+  </nav>
+</header>
