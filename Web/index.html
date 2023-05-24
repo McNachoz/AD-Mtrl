@@ -8,34 +8,28 @@
 
     <title>AD-Mtrl</title>
 
+ <!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&family=Inter:wght@200;300;400;600&family=Roboto:wght@500&display=swap" rel="stylesheet">
 
 
-   <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&family=Inter:wght@200;300;400;600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<!-- aos-plug in -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!-- font-awsome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
-
-
-    <!-- font-awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-      <!-- owl-carousel -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- owl-carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+ <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
 
     <!-- live server linked -->
     <!-- <link rel="stylesheet" href="_css/bootstrap.min.css">
@@ -43,119 +37,74 @@
 
 </head>
 <body>
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH9FLRW"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-
-
-  <!-- home section-->
-  <!-- topbar -->
+<!-- Google Tag Manager gives you the ability to add and update your own tags for conversion tracking, site analytics, remarketing, and more. -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH9FLRW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
-    {{ insert topbar.html }}
+<!-- home section-->
+<!-- topbar -->
+{{ insert topbar.html }}
 
 
-  <!-- navigation menubar -->
+<!-- navigation menubar -->
+{{ insert nav.html }}
 
-  {{ insert nav.html }}
+<!-- intro carousel-->
+{{ insert carousel.html }}
 
+<!-- About AD-mtrl section and simu mat section -->
+{{ insert about_sections.html }}
 
-   <!-- intro carousel-->
+<!-- projects  -->
+{{ insert projects.html}}
 
-  {{ insert carousel.html }}
+ <!-- team  -->
+<!-- {{ insert team.html }} -->
+{{ insert team_v2.test.html }}
 
+<!-- facilities -->
+{{ insert facilities.html }}
 
-  <!-- About AD-mtrl section and simu mat section -->
+<!-- collaborator  -->
+{{ insert collaborator.html}}
 
-
-    {{ insert about_sections.html }}
-
-
-
-
-    <!-- projects  -->
-
-    {{ insert projects.html}}
-
-    <!-- team  -->
-
-    {{ insert team.html }}
-
-
-    <!-- facilities -->
-    {{ insert facilities.html }}
+<!-- Footer contact us section -->
+{{ insert footer.html}}
 
 
 
+<!-- poppers note if it to used then some js script function in website may not work -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
 
 
-  <!-- collaborator  -->
-
-  {{ insert collaborator.html}}
-
-
-    <!-- Footer contact us section -->
- {{ insert footer.html}}
-
-
-
-
-
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-
-     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
-
-
-
-
-
-<!-- poppers -->
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-
-
-<!-- bootstrap -->
+<!-- bootstrap structure html/css -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
-<!-- <script src="__site/bootstrap.js/bootstrap.bundle.min.js"></script> -->
+<!-- JQuery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 
+<!-- owl-carousel js file-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-  <!-- JQuery cdn -->
-
-
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous">
-  </script>
-
-
-  <!-- owl-carousel js file-->
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- animation aos -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
- <script src="custom.js/aos.js"></script>
+<!-- animation aos -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="custom.js/aos.js"></script>
 
 <!-- navbar will collapse if the link was clicked -->
- <script src="custom.js/navbar_collapse.js"></script>
+<script src="custom.js/navbar_collapse.js"></script>
 
-  <!-- js -->
-  <script src="custom.js/carousel.js"></script>
-  <script src="custom.js/isotope.min.js"></script>
+<!-- js scripts-->
+<script src="custom.js/carousel.js"></script>
+<script src="custom.js/isotope.min.js"></script>
+<script src="custom.js/init.isotope.js"></script>
+<script src="custom.js/script.js"></script>
+<script src="libs/sticky/sticky.js"></script>
+<script src="main.js/modernizr.js"></script>
 
-  <script src="custom.js/init.isotope.js"></script>
-
-
-   <script src="custom.js/script.js"></script>
-
-
-
+<script type="text/javascript" src="custom.js/appear.js"></script>
 
 </body>
 </html>

@@ -1,22 +1,4 @@
-// $(function() {
-//     $("body").click(function(e){
-//         if(e.target.getAttribute("class")==="navbar-collapse"||$(e.target).parents(".navbar-collapse").length>0)
-//         {
-
-//         }
-//      else
-//      {
-//          if($(".navbar-collapse").hasClass("in")==true)
-//             {
-//               $(".navbar-toggler")[0].click();
-//             }
-
-//      }
-
-
-//     });
-// });
-
+// document.body.style.zoom="80%"
 
 // The nav menu will close when clicked outside
 jQuery(document).ready(function( $ ) {
@@ -31,7 +13,7 @@ $(function() {
 //   jquery(document).ready(function)
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 90) {
+    if ($(this).scrollTop() > 100) {
         $('.back-to-top').fadeIn('default');
     } else {
         $('.back-to-top').fadeOut('default');
@@ -40,19 +22,13 @@ $(function() {
 $('.back-to-top').click(function () {
     $('html, body').animate({scrollTop: 0},0, 'easeInOutExpo');
     return false;
-});
-// $(window).scroll(function() {
-//     if ($(this).scrollTop() > 100) {
-//       $('.back-to-top').fadeIn('default');
-//     } else {
-//       $('.back-to-top').fadeOut('default');
-//     }
-//   });
-//   $('.back-to-top').click(function(){
-//     $('html, body').animate({scrollTop : 0},500, 'easeInOutExpo');
-//     return false;
-//   });
 
+});
+
+$("#header").sticky({topSpacing:0, zIndex: '50'});
+
+
+// document.body.style.zoom="80%"
 
   // Smooth scroll for the menu and links with .scrollto classes
   // $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
@@ -88,8 +64,49 @@ $('.back-to-top').click(function () {
   //   }
   // });
 
+function isElementInViewport (el) {
+  if (typeof jQuery === "function" && el instanceof jQuery) {
+      el = el[0];
+  }
+  var position = el.getBoundingClientRect();
+  if(position.top >= 0 && position.bottom <= window.innerHeight) {
+    return true;
+  }
+  if(position.top < window.innerHeight && position.bottom >= 0) {
+    return true;
+  }
+  return false;
+}
+$("[data-aos]").each(function() {
+  if (isElementInViewport($(this))) {
+    $(this).removeAttr("data-aos");
+  }
 });
 
+
+// $("#myModal").modal("show");
+// $("#myModal").css("z-index", "1500");
+
+
+// var element = document.getElementById("body");
+// element.innerHTML += "<iframe src='http://www.google.com' height='200' width='" + document.body.clientWidth * 0.8 + "'/>";
+
+// window.onload = function(){
+//   let ifElem = document.getElementById("iframe-id");
+//   ifElem.contentWindow.document.documentElement.style.fontSize="80%";
+// }
+
+});
+
+
+
+// jQuery(document).ready(function( $ ) {
+
+//   // Stick the header at top on scroll
+//   $("#header").sticky({topSpacing:0, zIndex: '50'});
+
+
+// });
 
 
 

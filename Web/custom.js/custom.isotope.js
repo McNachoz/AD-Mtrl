@@ -30,19 +30,19 @@ function debounce( fn, threshold ) {
 }
 
 
-// // update columnWidth on window resize
-// $(window).smartresize(function(){
-//     $container.isotope({
-//       resizable: false, // disable normal resizing
-//       masonry: { columnWidth: $container.width() / 4 }
-//     });
-//     // trigger resize to trigger isotope
-//  }).smartresize();
+// update columnWidth on window resize
+$(window).smartresize(function(){
+    $container.isotope({
+      resizable: false, // disable normal resizing
+      masonry: { columnWidth: $container.width() / 4 }
+    });
+    // trigger resize to trigger isotope
+ }).smartresize();
 
-//  // trigger isotope again after images have loaded
-//  $container.imagesLoaded( function(){
-//    $(window).smartresize();
-//  });
+ // trigger isotope again after images have loaded
+ $container.imagesLoaded( function(){
+   $(window).smartresize();
+ });
 
 $(window).resize(function(){
     $("#isotope").masonry().masonry("reloadItems");
@@ -74,3 +74,4 @@ $(window).resize(function(){
       }
     });
   });
+

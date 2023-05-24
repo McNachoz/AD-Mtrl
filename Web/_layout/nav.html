@@ -1,9 +1,10 @@
 <!-- navbar with dropdown -->
-<header id ="header" class="sticky-top">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+<header id ="header">
+  <nav class=" navbar navbar-expand-lg navbar-dark bg-dark" >
 
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="" >LOGO</a>
+      <!-- /assets/logo_white.png-test.png"  test logo-->
+      <a class="navbar-brand" href="#" ><img src="" class="img-fluid"> Logo</a>
       <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="toggler-icon top-bar"></span>
         <span class="toggler-icon middle-bar"></span>
@@ -23,13 +24,17 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger smooth-scroll" href="#projects">Projects</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger smooth-scroll" href="#team">Team</a>
+          </li>
 
    <!-- dropdown menu "More" -->
 
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
-            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-              <a class="dropdown-item js-scroll-trigger" href="#team">Team</a>
+            <!-- style="right: 0; left: auto;" dropdown position -->
+            <div class="dropdown-menu dropdown-menu-dark "aria-labelledby="navbarDarkDropdownMenuLink">
+              <!-- <a class="dropdown-item js-scroll-trigger" href="#team">Team</a> -->
               <a class="dropdown-item js-scroll-trigger" href="#facilities">Facilities</a>
               <a class="dropdown-item js-scroll-trigger" href="#funding-partners">Funding Partners</a>
               <a class="dropdown-item js-scroll-trigger" href="#contact-us">Contact Us</a>
