@@ -39,11 +39,11 @@ body {
   /* position: relative; */
 }
 
-@media screen and (min-width:992px) {
+/* @media screen and (min-width:992px) {
   section {
     padding: 5rem;
   }
-}
+} */
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
@@ -78,8 +78,8 @@ small {
 }
 
 section {
-  padding-top: 100px;
-  padding-bottom: 80px ;
+  padding-top: 120px;
+  padding-bottom: 120px ;
 }
 
 .scroll-top {
@@ -240,7 +240,7 @@ section {
 }
 
 #header {
-  height: 90px;
+  height: 80px;
   z-index: 9999;
   position: relative;
 }
@@ -248,7 +248,9 @@ section {
 
 
 ul.navbar-nav {
-  padding-right: 90px;
+  line-height: 4;
+  /* padding-top: 100px; */
+  padding-right: 100px;
   /* padding-left: 50px; */
 }
 
@@ -394,6 +396,27 @@ a:hover {
   }
 }
  */
+
+/* blog/news-section */
+#blog-section {
+  line-height: 2;
+  /* font-size: ;
+  font-family: ; */
+}
+
+/* .bg-image {
+  width: 100%;
+} */
+
+/*
+@media only screen and (max-width: 860px) {
+
+} */
+
+
+
+
+
 
 /*  About ad-mtrl */
 #about {
@@ -655,7 +678,7 @@ ul.filters > li.active > a{
   }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 975px) {
   .team-info a {
     font-size: 10px;
   }
@@ -664,6 +687,15 @@ ul.filters > li.active > a{
     height: 90px;
   }
 
+}
+
+@media (max-width: 768px) {
+  .team-info a {
+    font-size: 10px;
+  }
+  /* .team-info {
+    height: 90px;
+  } */
 }
 
 
@@ -704,6 +736,9 @@ ul.filters > li.active > a{
   -ms-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
 }
+
+
+
 
 
 
