@@ -678,9 +678,9 @@ ul.filters > li.active > a{
   }
 }
 
-@media (max-width: 975px) {
-  .team-info a {
-    font-size: 10px;
+@media (max-width: 991px) {
+  .team-info a.btn {
+    font-size: 12px;
   }
   /* .modal-body, */
   .team-info {
@@ -689,14 +689,6 @@ ul.filters > li.active > a{
 
 }
 
-@media (max-width: 768px) {
-  .team-info a {
-    font-size: 10px;
-  }
-  /* .team-info {
-    height: 90px;
-  } */
-}
 
 
 .single-team{
@@ -712,6 +704,30 @@ ul.filters > li.active > a{
 
 /* customize */
 
+
+/* prev members */
+
+
+.modal-dialog ul.list-style {
+  list-style-position: outside;
+
+}
+
+.modal-dialog  .prev-text h4 {
+  font-size: 15px;
+}
+
+
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px;
+  }
+}
+
+.modal-dialog .prev-text {
+  font-size: 15px;
+  color: #130f0f;
+}
 
 .card-head{
   position: relative;
@@ -739,6 +755,14 @@ ul.filters > li.active > a{
 
 
 
+@media (max-width:580px) {
+  .prev-text {
+    display: inline-block;
+  }
+  .modal-dialog .modal-lg {
+    width:400px !important;
+  }
+}
 
 
 
@@ -780,6 +804,28 @@ ul.filters > li.active > a{
 .card-overlay {
   transition: .3s ease;
 }
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1d1d1d;
+}
+
+
+.icon-more {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 .icons {
   transform: translate(-50%, -50%);
