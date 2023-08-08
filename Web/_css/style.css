@@ -121,23 +121,23 @@ section {
 
 .section-intro .hline {
   width: 150px;
-  height: 3px;
-  background-color: #c78f4f;
-  margin: 4px auto 0 auto;
+  height: 2px;
+  background-color: #003266;
+  margin: 2px auto 0 auto;
 }
 
 .section-intro {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .section-intro span {
-  color: #2e2929;
+  color: #E0AA1A ;
 }
 
 .section-intro h1 {
     font-size: 32px;
-    color: #11245a;
+    color: #1C316A;
 }
 
 @media screen and (max-width: 320px) {
@@ -181,7 +181,7 @@ section {
 }
 
 .navbar-toggler:active {
-  background: #ffb60b;
+  background: #ffffff;
 }
 
 .back-to-top:focus {
@@ -191,7 +191,7 @@ section {
 }
 
 .back-to-top:hover{
-  background: #EE7F38;
+  background: #5D6A73;
 }
 
 .dropdown-menu .dropdown-item {
@@ -270,7 +270,7 @@ nav.navbar {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: 'Inter', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: azure !important;
 
 }
@@ -278,16 +278,16 @@ nav.navbar {
 
 
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #ff9d2d;
+  color: #E0AA1A;
 }
 
 .nav-link:hover {
-  color: #ff9d2d !important;
+  color: #E0AA1A !important;
 }
 
 /* topbar hover color */
 a:hover {
-  color: #ff9d2d !important;
+  color: #E0AA1A !important;
 
 }
 
@@ -319,7 +319,7 @@ a:hover {
   position: absolute;
   height: 3px;
   width: 100%;
-  background-color: #ff9d2d;
+  background-color: #E0AA1A;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -482,9 +482,9 @@ a:hover {
 
   .about-text h4 {
     font-family: 'Optima', sans-serif; 
-    font-size: 14px;
+    font-size: 12px;
     text-transform: none;
-    color: #130f0f;
+    color: #003266;
     font-weight: 400;
     line-height: 2;
   }
@@ -630,7 +630,7 @@ a:hover {
 /* TEAM  */
 
 #team .title:hover{
-  color: #ff9d2d;
+  color: #E0AA1A;
 }
 
 
