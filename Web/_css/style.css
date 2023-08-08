@@ -99,14 +99,14 @@ section {
   opacity: 0;
   width: 44px;
   height: 44px;
-  background: #EE7F38;
+  background: #E0AA1A;
   border-radius: 4px;
   transition: .3s;
   z-index: 11
 }
 
 .scroll-top:hover {
-  background: #EE7F38;
+  background: #E0AA1A;
   /* box-shadow: 0 6px 15px 0 rgb(215, 164, 36) */
 }
 
@@ -580,7 +580,7 @@ input[type="checkbox"]:checked ~ label:before {
 
 .carousel-inner h5{
   font-size: 2rem;
-  color: #eb7d00;
+  color: #E0AA1A;
 }
 
 
@@ -590,7 +590,7 @@ input[type="checkbox"]:checked ~ label:before {
 }
 
 .fa-color:hover {
-  color: #EE7F38;
+  color: #E0AA1A;
 }
 
 /* About simu-mat */
@@ -665,7 +665,7 @@ input[type="checkbox"]:checked ~ label:before {
 }
 
 .projects-box h6:hover {
-  color: #eb7d00;
+  color: #E0AA1A;
 }
 
 .projects-content {
@@ -838,7 +838,7 @@ ul.filters > li.active > a{
 }
 
 .modal-footer .btn:hover{
-  color: #eb7d00 ;
+  color: #E0AA1A ;
 }
 
 .team-text {
@@ -895,7 +895,7 @@ ul.filters > li.active > a{
 }
 
 .modal-header button {
-  color: #eb7d00;
+  color: #E0AA1A;
 }
 
 .modal-header h1 {
