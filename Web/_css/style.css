@@ -481,7 +481,7 @@ a:hover {
   }
 
   .about-text h4 {
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Optima', sans-serif; 
     font-size: 14px;
     text-transform: none;
     color: #130f0f;
@@ -989,9 +989,9 @@ ul.filters > li.active > a{
 #facilities {
   color: #000;
   line-height: 2;
-  font-family: 'IBM', sans-serif;
+  font-family: 'Inter', sans-serif;
     /* font-weight: 300; */
-  font-size: 18px;
+  font-size: 15px;
 }
 
 
