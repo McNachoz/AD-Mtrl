@@ -24,10 +24,15 @@
 
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--scroll-padding, 100px);
-  background-color: #FCF5E5;
 }
 
 
@@ -36,7 +41,8 @@ body {
   line-height: 4;
   color: #898fa1;
   font-family: 'Inter', sans-serif;
-  /* position: relative; */
+  /* margin: 0;
+  padding: 0; */
 }
 
 /* @media screen and (min-width:992px) {
@@ -488,6 +494,54 @@ a:hover {
     font-weight: 400;
     line-height: 2;
   }
+
+/* p.tittle {
+  font-size: 28px;
+}
+   */
+
+
+.extra {
+  display: none;
+}
+
+p {
+  display: inline;
+}
+
+input[type="checkbox"] {
+  height: 1em;
+  display: block;
+  appearance: none;
+}
+
+label {
+  position: relative;
+  padding: 5px 32px;
+  background-color: #0e0d0d;
+  cursor: pointer;
+  color: white;
+  border-radius: 80px;
+}
+
+label::before {
+  content: "Read More";
+}
+
+input[type="checkbox"]:checked ~ label:before {
+  content: "Read less";
+}
+
+.dots:has(~ input[type="checkbox"]:checked) {
+  display: none;
+}
+
+.extra:has(~ input[type="checkbox"]:checked) {
+  display: inline;
+}
+
+
+
 
 /* carousel image --> "c-item/c-img */
 .text-color h5 {
