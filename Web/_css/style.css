@@ -132,7 +132,7 @@ section {
 }
 
 .section-intro span {
-  color: #eb7d00;
+  color: #2e2929;
 }
 
 .section-intro h1 {
@@ -475,17 +475,18 @@ a:hover {
   }
 
   .about-text {
-   padding: 20px;
-  margin-bottom: 40px;
+    padding: 20px;
+    margin-bottom: 40px;
+
   }
 
   .about-text h4 {
-    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Inter', sans-serif; 
     font-size: 14px;
     text-transform: none;
     color: #130f0f;
     font-weight: 400;
-    line-height: 3;
+    line-height: 2;
   }
 
 /* carousel image --> "c-item/c-img */
@@ -646,7 +647,7 @@ ul.filters > li{
   display: inline-block;
   border: 1px solid rgba(16, 15, 15, 0.4);
   box-sizing: border-box;
-  margin: 3px;
+  margin: 1px;
   position: relative;
 }
 
@@ -657,7 +658,7 @@ ul.filters > li > a{
   color: #434e5e;
   text-decoration: none;
   border-radius: 2px solid;
-  padding: 5px 10px;
+  padding: 2px 15px;
 }
 
 ul.filters > li > a:hover{
