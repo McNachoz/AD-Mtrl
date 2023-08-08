@@ -128,7 +128,7 @@ section {
 .section-intro .hline {
   width: 150px;
   height: 2px;
-  background-color: #003266;
+  background-color: #5D6A73;
   margin: 2px auto 0 auto;
 }
 
@@ -143,7 +143,7 @@ section {
 
 .section-intro h1 {
     font-size: 32px;
-    color: #1C316A;
+    color: #25275C       ;
 }
 
 @media screen and (max-width: 320px) {
@@ -487,8 +487,8 @@ a:hover {
   }
 
   .about-text h4 {
-    font-family: 'Optima', sans-serif; 
-    font-size: 12px;
+    font-family: 'Inter', sans-serif; 
+    font-size: 13px;
     text-transform: none;
     color: #000000;
     font-weight: 400;
@@ -597,7 +597,7 @@ input[type="checkbox"]:checked ~ label:before {
 
 
 .simu-mat-text p {
-  line-height: 3;
+  line-height: 2;
   font-size: 15px;
   color: #130f0f;
 
