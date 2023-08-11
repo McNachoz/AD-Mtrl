@@ -24,11 +24,11 @@
 
 
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -38,18 +38,18 @@ html {
 
 
 body {
-  line-height: 4;
+  line-height: 2;
   color: #898fa1;
   font-family: 'Inter', sans-serif;
   /* margin: 0;
   padding: 0; */
 }
 
-/* @media screen and (min-width:992px) {
+@media screen and (min-width:992px) {
   section {
     padding: 5rem;
   }
-} */
+}
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
@@ -84,8 +84,8 @@ small {
 }
 
 section {
-  padding-top: 120px;
-  padding-bottom: 120px ;
+  padding-top: 100px;
+  padding-bottom: 100px ;
 }
 
 .scroll-top {
@@ -249,6 +249,7 @@ section {
   height: 80px;
   z-index: 9999;
   position: relative;
+  line-height: 4;
 }
 
 
@@ -597,7 +598,7 @@ input[type="checkbox"]:checked ~ label:before {
 
 
 .simu-mat-text p {
-  line-height: 3;
+  line-height: 1;
   font-size: 15px;
   color: #130f0f;
 
@@ -987,6 +988,66 @@ ul.filters > li.active > a{
 }
 
 
+
+
+
+
+/* Gallery section */
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #F2F2F2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #1d1d1d;
+}
+
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px; 
+  border-radius: 20px;
+  transform: scale(0.9);
+  opacity: 0.3;
+  transition: all 0.3s;
+  padding-bottom: 10px;
+}
+
+.slider-card h5 {
+  color: #11249F;
+}
+
+.slider-card .text-center {
+  font-size: 15px;
+}
+
+.slider-card img {
+  border-radius: 20px;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+
+
 /* modal card */
 .item .btn-default {
 	color: #FFFFFF;
@@ -1087,6 +1148,10 @@ ul.filters > li.active > a{
   font-size: 20px;
   color: #0e0d0d;
   line-height: 2;
+}
+
+.owl-theme .item {
+  width: 80%;
 }
 
 
