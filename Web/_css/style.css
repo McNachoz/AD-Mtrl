@@ -24,11 +24,11 @@
 
 
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -38,18 +38,18 @@ html {
 
 
 body {
-  line-height: 4;
+  line-height: 2;
   color: #898fa1;
   font-family: 'Inter', sans-serif;
   /* margin: 0;
   padding: 0; */
 }
 
-/* @media screen and (min-width:992px) {
+@media screen and (min-width:992px) {
   section {
     padding: 5rem;
   }
-} */
+}
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
@@ -84,8 +84,8 @@ small {
 }
 
 section {
-  padding-top: 120px;
-  padding-bottom: 120px ;
+  padding-top: 100px;
+  padding-bottom: 100px ;
 }
 
 .scroll-top {
@@ -99,14 +99,14 @@ section {
   opacity: 0;
   width: 44px;
   height: 44px;
-  background: #E0AA1A;
+  background: #EE7F38;
   border-radius: 4px;
   transition: .3s;
   z-index: 11
 }
 
 .scroll-top:hover {
-  background: #E0AA1A;
+  background: #EE7F38;
   /* box-shadow: 0 6px 15px 0 rgb(215, 164, 36) */
 }
 
@@ -127,23 +127,23 @@ section {
 
 .section-intro .hline {
   width: 150px;
-  height: 2px;
-  background-color: #5D6A73;
-  margin: 2px auto 0 auto;
+  height: 3px;
+  background-color: #c78f4f;
+  margin: 4px auto 0 auto;
 }
 
 .section-intro {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .section-intro span {
-  color: #E0AA1A ;
+  color: #2e2929;
 }
 
 .section-intro h1 {
     font-size: 32px;
-    color: #25275C       ;
+    color: #11245a;
 }
 
 @media screen and (max-width: 320px) {
@@ -187,7 +187,7 @@ section {
 }
 
 .navbar-toggler:active {
-  background: #ffffff;
+  background: #ffb60b;
 }
 
 .back-to-top:focus {
@@ -197,7 +197,7 @@ section {
 }
 
 .back-to-top:hover{
-  background: #5D6A73;
+  background: #EE7F38;
 }
 
 .dropdown-menu .dropdown-item {
@@ -249,6 +249,7 @@ section {
   height: 80px;
   z-index: 9999;
   position: relative;
+  line-height: 4;
 }
 
 
@@ -276,7 +277,7 @@ nav.navbar {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   color: azure !important;
 
 }
@@ -284,16 +285,16 @@ nav.navbar {
 
 
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #E0AA1A;
+  color: #ff9d2d;
 }
 
 .nav-link:hover {
-  color: #E0AA1A !important;
+  color: #ff9d2d !important;
 }
 
 /* topbar hover color */
 a:hover {
-  color: #E0AA1A !important;
+  color: #ff9d2d !important;
 
 }
 
@@ -325,7 +326,7 @@ a:hover {
   position: absolute;
   height: 3px;
   width: 100%;
-  background-color: #E0AA1A;
+  background-color: #ff9d2d;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -487,11 +488,11 @@ a:hover {
   }
 
   .about-text h4 {
-    font-family: 'Inter', sans-serif; 
-    font-size: 13px;
+    font-family: 'Optima', sans-serif; 
+    font-size: 14px;
     text-transform: none;
-    color: #000000;
-    font-weight: 450;
+    color: #130f0f;
+    font-weight: 400;
     line-height: 2;
   }
 
@@ -580,7 +581,7 @@ input[type="checkbox"]:checked ~ label:before {
 
 .carousel-inner h5{
   font-size: 2rem;
-  color: #E0AA1A;
+  color: #eb7d00;
 }
 
 
@@ -590,14 +591,14 @@ input[type="checkbox"]:checked ~ label:before {
 }
 
 .fa-color:hover {
-  color: #E0AA1A;
+  color: #EE7F38;
 }
 
 /* About simu-mat */
 
 
 .simu-mat-text p {
-  line-height: 2;
+  line-height: 1;
   font-size: 15px;
   color: #130f0f;
 
@@ -665,7 +666,7 @@ input[type="checkbox"]:checked ~ label:before {
 }
 
 .projects-box h6:hover {
-  color: #E0AA1A;
+  color: #eb7d00;
 }
 
 .projects-content {
@@ -684,7 +685,7 @@ input[type="checkbox"]:checked ~ label:before {
 /* TEAM  */
 
 #team .title:hover{
-  color: #E0AA1A;
+  color: #ff9d2d;
 }
 
 
@@ -838,7 +839,7 @@ ul.filters > li.active > a{
 }
 
 .modal-footer .btn:hover{
-  color: #E0AA1A ;
+  color: #eb7d00 ;
 }
 
 .team-text {
@@ -895,7 +896,7 @@ ul.filters > li.active > a{
 }
 
 .modal-header button {
-  color: #E0AA1A;
+  color: #eb7d00;
 }
 
 .modal-header h1 {
@@ -984,6 +985,66 @@ ul.filters > li.active > a{
   .team-info a{
     font-size: 15px;
   }
+}
+
+
+
+
+
+
+/* Gallery section */
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #F2F2F2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #1d1d1d;
+}
+
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px; 
+  border-radius: 20px;
+  transform: scale(0.9);
+  opacity: 0.3;
+  transition: all 0.3s;
+  padding-bottom: 10px;
+}
+
+.slider-card h5 {
+  color: #11249F;
+}
+
+.slider-card .text-center {
+  font-size: 15px;
+}
+
+.slider-card img {
+  border-radius: 20px;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
 }
 
 
@@ -1087,6 +1148,10 @@ ul.filters > li.active > a{
   font-size: 20px;
   color: #0e0d0d;
   line-height: 2;
+}
+
+.owl-theme .item {
+  width: 80%;
 }
 
 
