@@ -27,4 +27,4 @@ Add here global latex commands to use throughout your pages.
 
 
 <!-- repository name -->
-@def prepath ="AD-MTRL"
+@def prepath ="ad-mtrl"
