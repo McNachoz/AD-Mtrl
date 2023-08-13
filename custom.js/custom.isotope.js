@@ -50,7 +50,7 @@ $(window).resize(function(){
 
 
 
- $(document).ready(function() {
+ $(window).load(function() {
     $grid = $(".grid").imagesLoaded(function() {
       $grid.isotope({
         filter: "*",
