@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" name="viewport">
-    <!-- <link href="assets/logo_icon.png" rel="icon"> -->
+    <meta name="description" content="A one-stop research facility in New Brunswick for materials characterization and mechanical testing">
+    <meta name="author" content="Cyril Costes">
+
+
+    <link href="/assets/logo_icon.png" rel="icon">
     <title>AD-Mtrl</title>
 
 
@@ -13,22 +17,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&family=Inter:wght@200;300;400;600&family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-<!-- aos-plug in -->
-<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
-
 <!-- font-awsome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- owl-carousel -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-
  <!-- Bootstrap CSS -->
-    {{ insert css_files.html }}
+ {{ insert css_files.html }}
         
-        <!-- Favicons -->
-   <link href="/assets/logo_icon.png" type="image/png" rel="icon">
+ <!-- Favicons -->
+ <link href="/assets/logo_icon.png" type="image/png" rel="icon">
 
 </head>
 <body>
@@ -36,47 +35,6 @@
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH9FLRW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-
-
-<!-- THINGS TO REMEMBER -->
-<!-- NOTE: Please check the following documentation of HTML and CSS to further understand it (Hover to the hyperlink and then click or "Left Ctrl + left click button of the mouse") https://www.w3schools.com/html/default.asp and https://www.w3schools.com/css/ -->
-<!-- NOTE: Please check the following documentation of Bootstrap 5 (Hover to the hyperlink and then click or "Left Ctrl + left click button of the mouse") https://getbootstrap.com/docs/5.0/getting-started/introduction/  -->
-
-
-<!-- NOTE: DONT EDIT THE FOLDER "__site" that is where the main content goes instead edit the folder with _assets,_css until "index.html" -->
-
-<!-- NOTE: Almost all content of the website is boostrap so be mindful editing it -->
-
-<!-- NOTE: DONT FORGET TO SAVE UR PROGRESS via CTRL + S -->
-<!-- NOTE: To create new _layout add file with ".html in the end
-    " or folder(More organize) then add html section program then
-DECLARE "{{ insert TEST/SAMPLE.html}} in the main index.html located down of the folder WEB -->
-
-<!-- NOTE: Declaring path should be from the "__site" folder example: <img src ="/asset/Test/img.jpg"> and not <img src ="_asset/Test/img.jpg">  -->
-
-<!-- NOTE: To add new card section on "Team section" first create a file with the name of the said person with ".html" at the end, make sure to organize it and then copy the format
-    of the other team section html then change the name on the card section
- -->
-
- <!-- NOTE: Always check the program for duplicate tags like </div> or <div> and <section> or </section>. Duplicate tags Example <div></div></div> will mess up the html -->
-
-<!-- NOTE: Declaring CSS should be specific target of class example:
-    <=== HTML File ===>
-    <div class="sample">
-        <h1>Hello</h1>
-        <p>World<p>
-    </div>
-
-    <=== CSS File ===>
-    .sample h1 {
-        font-size:100px;
-    }
-
-   ==> This will make the font size of "h1" to be 100px and not affecting the <p> properties
--->
-
-
 
 <!-- home section-->
 <!-- topbar -->
@@ -95,7 +53,6 @@ DECLARE "{{ insert TEST/SAMPLE.html}} in the main index.html located down of the
 
 <!-- BLOG AND News section -->
 {{ insert blog_and_news.html }}
-
 
 
 <!--  Simu mat section -->
@@ -121,7 +78,6 @@ DECLARE "{{ insert TEST/SAMPLE.html}} in the main index.html located down of the
 {{ insert footer.html}}
 
 
-
 <!-- popper -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>  -->
 
@@ -133,7 +89,7 @@ DECLARE "{{ insert TEST/SAMPLE.html}} in the main index.html located down of the
 <!-- JQuery cdn -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 
 <!-- owl-carousel js file-->
