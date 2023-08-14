@@ -623,10 +623,6 @@ input[type="checkbox"]:checked ~ label:before {
 }
 
 
-
-
-
-
 /* Projects section */
 
 #projects{
@@ -637,14 +633,14 @@ input[type="checkbox"]:checked ~ label:before {
   font-size: 14px;
 }
 
-.projects {
+/* .projects {
   padding-top: 50px;
   padding-bottom: 50px;
-}
+} */
 
 
 .projects-box {
-  padding: 20px;
+  padding: 30px;
   background-color: #f2f2f2f8;
   transition: .4s;
   transform: translateY(0);
@@ -653,7 +649,7 @@ input[type="checkbox"]:checked ~ label:before {
 
 .projects-box .projects-icon img {
   /* width: 10px; */
-  height: 5rem;
+  height: 100px;
 
 }
 
@@ -669,17 +665,16 @@ input[type="checkbox"]:checked ~ label:before {
   color: #eb7d00;
 }
 
-.projects-content {
+/* .projects-content {
   height: 0%;
   line-height: 2rem;
-}
+} */
 
 .projects-content p {
   /* font-family: 'Inter', sans-serif;
   font-weight: 600; */
   font-size: 15px;
 }
-
 
 
 /* TEAM  */
@@ -745,8 +740,6 @@ ul.filters > li.active > a{
 
 }
 
-
-
 .single-team{
   position: relative;
   margin-bottom: 20px;
@@ -762,7 +755,6 @@ ul.filters > li.active > a{
 
 
 /* prev members */
-
 
 .modal-dialog ul.list-style {
   list-style-position: outside;
@@ -820,8 +812,6 @@ ul.filters > li.active > a{
   }
 }
 
-
-
 /* modal card */
 
 .modal-header h1{
@@ -870,7 +860,6 @@ ul.filters > li.active > a{
   background-color: #1d1d1d;
 }
 
-
 .icon-more {
   color: white;
   font-size: 30px;
@@ -888,8 +877,6 @@ ul.filters > li.active > a{
   -ms-transform: translate(-50%, -50%);
 }
 
-
-
 .modal-header {
   /* color: #eb7d00; */
   background-color: #1d1d1d;
@@ -902,7 +889,6 @@ ul.filters > li.active > a{
 .modal-header h1 {
   color: #fff;
 }
-
 
 /* .modal-body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -954,7 +940,6 @@ ul.filters > li.active > a{
   transform: scale(1.1);
 }
 
-
 .team-content {
   height: 80%;
   position: absolute;
@@ -986,11 +971,6 @@ ul.filters > li.active > a{
     font-size: 15px;
   }
 }
-
-
-
-
-
 
 /* Gallery section */
 .slider {
@@ -1058,8 +1038,6 @@ ul.filters > li.active > a{
 	border: 0;
 }
 
-
-
 @media (min-width: 1280px) {
   .modal-dialog {
     position: relative;
@@ -1068,8 +1046,6 @@ ul.filters > li.active > a{
     height: 250px;
   }
 }
-
-
 
 .modal-dialog img {
   max-width: 100%;
@@ -1084,8 +1060,6 @@ ul.filters > li.active > a{
   }
 }
 
-
-
 @media (max-width:350px){
   #team .card {
     margin-bottom: 10px;
@@ -1098,7 +1072,6 @@ ul.filters > li.active > a{
   }
 }
 
-
 /* facilities */
 
 #facilities {
@@ -1108,8 +1081,6 @@ ul.filters > li.active > a{
     /* font-weight: 300; */
   font-size: 15px;
 }
-
-
 
 .card-box {
   padding: 20px;
@@ -1142,7 +1113,6 @@ ul.filters > li.active > a{
 
 }
 
-
 /* funding partners section */
 .section-intro p {
   font-size: 20px;
@@ -1153,7 +1123,6 @@ ul.filters > li.active > a{
 .owl-theme .item {
   width: 95%;
 }
-
 
 /* Footer contact US section */
 
