@@ -1002,6 +1002,11 @@ ul.filters > li.active > a{
   color: #11249F;
 }
 
+.slider-card p.text-center {
+  font-size: 14px;
+}
+
+
 .slider-card .text-center {
   font-size: 15px;
 }
