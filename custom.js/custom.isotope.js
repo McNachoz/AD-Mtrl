@@ -49,8 +49,11 @@ $(window).resize(function(){
  });
 
 
+//  $(document).ready(function() {
+  $(window).on('load', function() {
+  var $container = $('.team-container');
 
- $(window).load(function() {
+
     $grid = $(".grid").imagesLoaded(function() {
       $grid.isotope({
         filter: "*",
