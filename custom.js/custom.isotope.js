@@ -1,9 +1,6 @@
-$(window).load(function(){
+$(document)(function(){
 
-    var teamIsotope = $('.team-container').isotope({
-        itemSelector: 'team-thumbnail',
-        layoutMode: 'fitRows'
-    });
+ 
 
 $('#team-filters li').on('click', function(){
     $("team-filters li").removeClass('filter-active');
@@ -13,6 +10,10 @@ $('#team-filters li').on('click', function(){
 })
 })
 
+
+$('.team-area').masonry({
+  columnWidth: 200
+});
 
 // debounce so filtering doesn't happen every millisecond
 // function debounce( fn, threshold ) {
