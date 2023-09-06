@@ -1037,8 +1037,9 @@ ul.filters > li.active > a{
 	z-index: 2;
 	position: relative;
 	border: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 300;
+  font-family: 'Roboto', sans-serif;
+  font: 100;
+  font-size: 14px;
 }
 
 @media (min-width: 1280px) {
