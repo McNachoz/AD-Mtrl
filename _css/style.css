@@ -833,7 +833,6 @@ ul.filters > li.active > a{
 /* modal overlay */
 .team-img:hover .image {
   opacity: .2;
-
 }
 
 
@@ -936,10 +935,10 @@ ul.filters > li.active > a{
 }
 
 .team-content {
-  /* height: 20%; */
+  height: 80%;
   position: absolute;
   text-align: center;
-  /* width: 90%; */
+  width: 90%;
   overflow: hidden;
   bottom: 0;
   /* background: rgb(34,34,34); */
