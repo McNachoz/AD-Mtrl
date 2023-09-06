@@ -910,7 +910,9 @@ ul.filters > li.active > a{
 	-ms-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+  font-family: 'Open Sans', sans-serif;
 }
+
 
 .single-team {
   position: relative;
@@ -1031,10 +1033,12 @@ ul.filters > li.active > a{
 .item .btn-default {
 	color: #FFFFFF;
 	background: #222222;
-	margin-top: -36px;
+	/* margin-top: -36px; */
 	z-index: 2;
 	position: relative;
 	border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 300;
 }
 
 @media (min-width: 1280px) {
