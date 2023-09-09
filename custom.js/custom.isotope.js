@@ -34,13 +34,13 @@ $('#team-filters li').on('click', function(){
 
 
  // trigger isotope again after images have loaded
- $container.imagesLoaded( function(){
-   $(window).smartresize();
- });
+//  $container.imagesLoaded( function(){
+//    $(window).smartresize();
+//  });
 
-$(window).resize(function(){
-    $("#isotope").masonry().masonry("reloadItems");
- });
+// $(window).resize(function(){
+//     $("#isotope").masonry().masonry("reloadItems");
+//  });
 
 
 
