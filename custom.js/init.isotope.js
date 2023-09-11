@@ -1,5 +1,5 @@
 // init Isotope
-var $grid = $('.team-list').isotope({
+var $grid = $('#team-area').isotope({
     // options
   });
   // filter items on button click
