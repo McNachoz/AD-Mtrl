@@ -679,7 +679,7 @@ input[type="checkbox"]:checked ~ label:before {
 }
 
 
-ul.filters{
+.filters{
   display: block;
   width: 100%;
   margin: 0;
@@ -687,7 +687,7 @@ ul.filters{
   font-size: 15px;
 }
 
-ul.filters > li{
+.filters > li{
   list-style: none;
   display: inline-block;
   border: 1px solid rgba(16, 15, 15, 0.4);
