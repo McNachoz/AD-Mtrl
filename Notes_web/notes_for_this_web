@@ -1,0 +1,36 @@
+<!-- THINGS TO REMEMBER -->
+<!-- NOTE: Please check the following documentation of HTML and CSS to further understand it (Hover to the hyperlink and then click or "Left Ctrl + left click button of the mouse") https://www.w3schools.com/html/default.asp and https://www.w3schools.com/css/ -->
+<!-- NOTE: Please check the following documentation of Bootstrap 5 (Hover to the hyperlink and then click or "Left Ctrl + left click button of the mouse") https://getbootstrap.com/docs/5.0/getting-started/introduction/  -->
+
+
+<!-- NOTE: DONT EDIT THE FOLDER "__site" that is where the main content goes instead edit the folder with _assets,_css until "index.html" -->
+
+<!-- NOTE: Almost all content of the website is boostrap so be mindful editing it -->
+
+<!-- NOTE: DONT FORGET TO SAVE UR PROGRESS via CTRL + S -->
+<!-- NOTE: To create new _layout add file with ".html in the end
+    " or folder(More organize) then add html section program then
+DECLARE "{{ insert TEST/SAMPLE.html}} in the main index.html located down of the folder WEB -->
+
+<!-- NOTE: Declaring path should be from the "__site" folder example: <img src ="/asset/Test/img.jpg"> and not <img src ="_asset/Test/img.jpg">  -->
+
+<!-- NOTE: To add new card section on "Team section" first create a file with the name of the said person with ".html" at the end, make sure to organize it and then copy the format
+    of the other team section html then change the name on the card section
+ -->
+
+ <!-- NOTE: Always check the program for duplicate tags like </div> or <div> and <section> or </section>. Duplicate tags Example <div></div></div> will mess up the html -->
+
+<!-- NOTE: Declaring CSS should be specific target of class example:
+    <=== HTML File ===>
+    <div class="sample">
+        <h1>Hello</h1>
+        <p>World<p>
+    </div>
+
+    <=== CSS File ===>
+    .sample h1 {
+        font-size:100px;
+    }
+
+   ==> This will make the font size of "h1" to be 100px and not affecting the <p> properties
+-->
