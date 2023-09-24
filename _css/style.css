@@ -741,8 +741,11 @@ ul.filters > li.active > a{
   color: #fff;
   border-radius: 3;
   background-color: #1d1d1d;
-  margin: 0;
+  /* margin: 20 30 40; */
   padding: 0;
+  z-index: 1;
+  box-shadow: 5px 5px 15px #000;
+  margin-bottom: 30px;
 }
 
 /* customize */
@@ -912,13 +915,13 @@ ul.filters > li.active > a{
 }
 
 
-.single-team {
+/* .single-team {
   position: relative;
   z-index: 1;
   box-shadow: 5px 5px 15px #000;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
 
-}
+} */
 .team-img {
   position: relative;
   z-index: 5;
