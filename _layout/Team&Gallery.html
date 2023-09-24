@@ -16,12 +16,10 @@
     </div>
 
 <div class="container">
-
     <div class="row">
-
         <div class="col-lg-12">
 
-            <ul class="filters text-dark text-center">
+            <ul class="filters text-dark text-center filter-button-group">
               <li class="active" data-filter="*"><a href="#">All</a></li>
               <li data-filter=".executive"><a href="#">EXECUTIVE</a></li>
               <li data-filter=".research"><a href="#">RESEARCH</a></li>
@@ -30,12 +28,84 @@
             </ul>
 
 
+
+           <!-- <div class = "row mt-3 mb-4 button-group filter-button-group">
+              <div class = "col d-flex justify-content-center">
+                  <button type = "button" data-filter = "*" class = "btn btn-primary mx-1 text-dark">All</button>
+                  <button type = "button" data-filter = ".executive" class = "btn btn-primary mx-1 text-dark">EXECUTIVE</button>
+                  <button type = "button" data-filter = ".clothing" class = "btn btn-primary mx-1 text-dark">Clothing</button>
+                  <button type = "button" data-filter = ".furniture" class = "btn btn-primary mx-1 text-dark">Furniture</button>
+              </div>
+          </div> -->
+
+
               <!-- TEAM -with isotope plug-in  -->
 
-            <div class="team" id="team-area">
-                <div class="row">
+            <div class="row team" id="team-area">
+                <!-- <div class="row"> -->
                                      <!-- Dr. Clod aranas -->
-                                 {{ insert Team/Executive/Clod_Aranas.html}}
+                                 <!-- {{ insert Team/Executive/Clod_Aranas.html}} -->
+
+                                 
+<!-- Card Section  -->
+<div class="col-sm-6 col-md-3 item all executive">
+  <div class="single-team rounded">
+      <div class="team-img">
+          <img src="assets/Team/Clod_2x2.jpg" class="image img-fluid">
+          <div class="card-overlay" data-bs-toggle="modal" data-bs-target="#modal_1">
+              <a class="icon" title="User Profile">
+              <i class="fa-sharp fa-2x fa-solid fa-magnifying-glass" style="color: #a4893d;"></i>
+            </a>
+          </div>
+      </div>
+          <div class="team-info" data-bs-toggle="modal" data-bs-target="#modal_1">
+              <a class="btn btn-default btn-block">
+                   Dr. Clodualdo Aranas <div>Director & Founder</div>
+              </a>
+           </div>
+  </div>
+  <div class="modal fade" id="modal_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialoged-centered" >
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="exampleModalLabel">Dr. Clodualdo Aranas Jr., PEng (Associate Professor)</h1>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col m-2">
+              <span>
+                <a href=""><i class="fa-brands fa-github fa-color"></i></a>
+              </span>
+              <span>
+               <a href="https://www.linkedin.com/posts/clod-aranas-66bb4048_ill-be-presenting-in-the-gleebles-webinar-activity-6957733436300140545-l9ZJ/?originalSubdomain=ee" class="linkedin"><i class="fa-brands fa-linkedin fa-color"></i></a>
+              </span>
+              <span class="text-white">
+                <a href=""><i class="fa-brands fa-youtube fa-color"></i></a>
+              </span>
+              <span class="text-white">
+                <a href=""><i class="fa-brands fa-twitter fa-color"></i></a>
+              </span>
+            </div>
+            </div>
+          <img src="assets/Team/Clod_2x2.jpg" alt="" class= "rounded mx-auto d-block">
+          <p class="m-2 team-text">I am currently an Associate Professor and a Principal Investigator in the Mechanical Engineering Department at the University of New Brunswick. My primary role involves collaborating closely with private industry to provide support for their research and development endeavors. Additionally, I have the responsibility of fostering the growth of Canada's economy by ensuring that students are trained based on the current trends and technology. My team’s research interests are in the area of physical and mechanical metallurgy, with a focus on materials characterization and mechanical testing. We are active in publishing our research findings in peer-reviewed journals – you can check our publication history for details! Feel free to contact me if you are interested in working with Alloy Design and Materials Testing Research Laboratory! I am also open to discussing potential projects and start-up ideas!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+</div>
+
+
+
 
 
                                  <!-- RESEARCH -->
@@ -118,7 +188,9 @@
                              </div>
                     </div>
                 </div>
-            </div>
+
+
+            <!-- </div> -->
         </div>
      </div>
 </div>
