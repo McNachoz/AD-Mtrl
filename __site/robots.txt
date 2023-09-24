@@ -1,4 +1,0 @@
-Sitemap: https://www.admtrl.ca\sitemap.xml
-
-User-agent: *
-Disallow:

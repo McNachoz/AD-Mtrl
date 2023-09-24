@@ -33,7 +33,7 @@ $(document).ready(function(){
   
       nav:true,
       autoplay:true,
-      autoplayTimeout:5000,
+      autoplayTimeout:3000,
       autoplayHoverPause:true,
       center: true,
       navText: [

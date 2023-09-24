@@ -1,7 +1,0 @@
-
-$(function() {
-    AOS.init();
-  });
-
-
-
