@@ -422,9 +422,6 @@ a:hover {
 
 
 
-
-
-
 /*  About ad-mtrl */
 #about {
   line-height: 3;
@@ -1097,12 +1094,7 @@ ul.filters > li.active > a{
   transform: translateY(-.5rem);
 }
 
-.img-responsive {
-  object-fit: cover;
-  /* height: 10px; */
-  object-position: center;
-  /* z-index: 995 !important; */
-}
+
 
 @media (min-width: 1024px) {
   #facilities .img-responsive {
