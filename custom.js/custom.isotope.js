@@ -4,6 +4,7 @@
 //         itemSelector: 'team-thumbnail',
 //         layoutMode: 'fitRows'
 //     });
+<<<<<<< HEAD
 
 // $('#team-filters li').on('click', function(){
 //     $("team-filters li").removeClass('filter-active');
@@ -12,6 +13,18 @@
 //     teamIsotope.isotope({ filter: $(this).data('filter')});
 // })
 // })
+=======
+
+// $('#team-filters li').on('click', function(){
+//     $("team-filters li").removeClass('filter-active');
+//     $(this).addClass('filter-active');
+
+//     teamIsotope.isotope({ filter: $(this).data('filter')});
+// })
+// })
+
+
+>>>>>>> 7bd57c86afcd5f3a040158f7d70a67540e7021f5
 
 
 // debounce so filtering doesn't happen every millisecond
@@ -28,6 +41,7 @@
 //         timeout = setTimeout( delayed, threshold );
 //     };
 // }
+<<<<<<< HEAD
 
 
 //  $(document).ready(function() {
@@ -59,3 +73,20 @@
   //   });
   // });
 
+=======
+
+
+
+ // trigger isotope again after images have loaded
+//  $container.imagesLoaded( function(){
+//    $(window).smartresize();
+//  });
+
+// $(window).resize(function(){
+//     $("#isotope").masonry().masonry("reloadItems");
+//  });
+
+
+
+
+>>>>>>> 7bd57c86afcd5f3a040158f7d70a67540e7021f5

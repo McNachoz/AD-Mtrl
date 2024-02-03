@@ -16,7 +16,7 @@ ignore = ["node_modules/"]
 generate_rss = false
 website_title = "AD-Mtrl"
 website_descr = "Alloy design and materials testing research laboratory"
-website_url   = "https://www.admtrl.ca"
+website_url   = "https://www.admtrl.com"
 +++
 
 <!--
