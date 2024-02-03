@@ -38,7 +38,7 @@ html {
 
 
 body {
-  line-height: 2;
+  /* line-height: 2; */
   color: #898fa1;
   font-family: 'Inter', sans-serif;
   /* margin: 0;
@@ -459,12 +459,11 @@ a:hover {
 
 
   .hovereffect img {
-    /* object-fit: cover; */
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     width: 100%;
-    display:block;
+    /* display:block; */
     position:relative;
     -webkit-transition:all .3s;
     transition:all .3s;
@@ -640,7 +639,7 @@ input[type="checkbox"]:checked ~ label:before {
 
 
 .projects-box {
-  padding: 30px;
+  padding: 20px;
   background-color: #f2f2f2f8;
   transition: .4s;
   transform: translateY(0);
@@ -697,7 +696,7 @@ ul.filters > li{
   display: inline-block;
   border: 1px solid rgba(16, 15, 15, 0.4);
   box-sizing: border-box;
-  margin: 1px;
+  margin: 2px;
   position: relative;
 }
 
@@ -745,7 +744,6 @@ ul.filters > li.active > a{
   margin-bottom: 20px;
   color: #fff;
   border-radius: 3;
-  /* border: 1px solid rgb(26, 23, 23); */
   background-color: #1d1d1d;
   margin: 0;
   padding: 0;
@@ -790,7 +788,6 @@ ul.filters > li.active > a{
   height: 100%;
   z-index: 9;
   opacity: 0;
-  /* background-color: rgba(67,78,94,0.8); */
   display: flex;
   align-items: center;
   justify-content: center;

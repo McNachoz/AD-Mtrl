@@ -8,3 +8,5 @@ var $grid = $('.team-area').isotope({
     $grid.isotope({ filter: filterValue });
   });
 
+
+
