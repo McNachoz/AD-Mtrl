@@ -11,3 +11,7 @@ var $grid = $('#team-area').isotope({
   });
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7bd57c86afcd5f3a040158f7d70a67540e7021f5
